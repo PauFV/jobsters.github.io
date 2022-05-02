@@ -145,40 +145,10 @@ h3, p{
 
 }
 
-.ruta{
-    height: 450px;
-    width: 100%;
-    background: linear-gradient(180deg,#092b41 0%, #2f1837 80%);
-   
-}
-
-.ruta h2{
-    border: 5px outset #aa0f52;
-}
-
-.ruta p{
-    text-align: center;
-    color: #042c37;
-    background: linear-gradient(90deg,rgba(101, 227, 215, 0.845) 65%, #d02b86 70%);
-    height: auto;
-    padding: 40px;
-    margin: 10px;
-    font-family: 'El Messiri', sans-serif;
-    font-size: 20px;
+.col-sm-6 .h3{
+    height: 200px;
     border-radius: 10px;
-    border: 5px outset #50d4ff;
-    text-shadow: 3px 1px 2px rgba(217,128,236,0.6);
-
-}
-
-.nleft{
-    width: 50%;
-    height: 300px;
-    background-image: url(../pictures/ruta.svg);
-    background-size: cover;
-    background-position:inherit;
     padding: 20px;
-    margin: 0;
-    
-   
+    margin: 5px;
+    justify-items: center;
 }
