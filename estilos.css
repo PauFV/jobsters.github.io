@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;700&family=Kaushan+Script&display=swap');
+
+:root{
+    --color-dark: #0d1b2a;
+    --color-light: #fee9e1;
+    --color-gold: #fcab64;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--color-dark);
+    font-weight: 200;
+    font-family: 'El Messeri', sans-serif;
+    color: var(--color-light);
+}
+
+.navbar{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,59,1) 35%, rgba(0,212,255,1) 100%);
+    color: #892b64 !important; 
+    justify-content: center;
+    font-family: 'Kaushan Script', cursive;
+    width: 100%;
+    
+   
+
+}
+
+.collapse-navbar-nav{
+    color: #892b64 !important; 
+    justify-content: center;
+
+}
+
+
+.jumbotron{
+    width: 100%;
+    height: 450px;
+    background-image: url(../pictures/jumbo1.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.jumbotron h1{
+    color: #892b64;
+    text-align: center;
+    font-family: 'El Messiri', sans-serif;
+}
+
+.jumbotron p{
+    color:#2e6f95 ;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'El Messiri', sans-serif;
+
+}
+
+.jumbotron h1{
+    text-align: center;
+    color: #042c37;
+    background: linear-gradient(90deg,rgba(101, 227, 215, 0.845) 65%, #393edd 70%);
+    height: 70px;
+    padding: 20px;
+    margin: 10px;
+    font-family: 'El Messiri', sans-serif;
+    font-size: 20px;
+    border-radius: 30%;
+    border: 5px outset #50d4ff;
+    text-shadow: 3px 1px 2px rgba(217,128,236,0.6);
+
+}
+
+.jumbotron p{
+    text-align: center;
+    color: #042c37;
+    background: linear-gradient(90deg,rgba(101, 227, 215, 0.845) 65%, #d02b86 70%);
+    height: 70px;
+    padding: 20px;
+    margin: 10px;
+    font-family: 'El Messiri', sans-serif;
+    font-size: 20px;
+    border-radius: 30%;
+    border: 5px outset #50d4ff;
+    text-shadow: 3px 1px 2px rgba(217,128,236,0.6);
+
+
+}
+
+.carousel h1{
+    text-align: center;
+    color: #042c37;
+    background: linear-gradient(90deg,rgba(101, 227, 215, 0.845) 65%, hwb(238 27% 7% / 0.69) 70%);
+    height: 80px;
+    padding: 15px;
+    margin: 20px;
+    font-family: 'El Messiri', sans-serif;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 5px outset #620e81;
+    text-shadow: 3px 1px 2px rgba(217,128,236,0.6);
+
+}
+h2{
+    text-align: center;
+    color: #ce2d04;
+    background: linear-gradient(90deg, rgba(121,188,192,1) 0%, rgba(191,104,54,1) 35%, rgba(40,97,153,1) 100%);
+    height: 60px;
+    padding: 10px;
+    text-shadow: 3px 1px 2px rgba(217,128,236,0.6);
+    font-family: 'El Messiri', sans-serif;
+
+}
+
+h3, p{
+    text-align: center;
+    color: #02443e;
+    height: 60px;
+    padding: 10px;
+    text-shadow: 3px 1px 2px rgba(217,128,236,0.6);
+    font-family: 'El Messiri', sans-serif;
+    background: linear-gradient(90deg,#6cb1ab 65%, #835d72 70%);
+    border-radius: 30%;
+    border: 5px outset #50d4ff;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.carousel-item img{
+    width: 100%;
+
+}
+
