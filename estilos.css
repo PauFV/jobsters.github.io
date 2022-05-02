@@ -160,9 +160,11 @@ h3, p{
     width: 380px;
     height: 540px;
     margin-left: 10px;
-    margin-top: 12px;
+    margin-top: 10px;
     margin-right: 10px;
-    justify-content: center;
+    margin-bottom: 10px;
+    padding: 5px;
+    justify-content:centergut;
    
     
 
