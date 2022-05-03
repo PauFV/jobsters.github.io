@@ -268,9 +268,18 @@ footer{
     background: linear-gradient(90deg, rgb(68, 5, 23) 15%, rgb(119, 56, 19) 46%, rgba(40,97,153,1) 100%);
 }
 
+h4{
+    text-align: center;
+    font-family: 'El Messiri', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    justify-items: center;
+
+}
 footer address{
     text-align: center;
     font-family: 'El Messiri', sans-serif;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
+    justify-items: center;
 }
