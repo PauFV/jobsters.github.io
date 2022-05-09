@@ -207,10 +207,9 @@ h3, p{
     color: #02443e;
     height: 60px;
     padding: 10px;
-    text-shadow: 3px 1px 2px rgba(217,128,236,0.6);
+    text-shadow: 3px 1px 2px rgba(228, 160, 243, 0.492);
     font-family: 'El Messiri', sans-serif;
     background: linear-gradient(90deg,#6cb1ab 65%, #835d72 70%);
-    border-radius: 30%;
     border: 5px outset #89083b;
     justify-content: center;
     font-size: 18px;
@@ -263,21 +262,35 @@ h3, p{
 }
 
 /* PAGES PRODUCTS */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+.cards{
+    color: #28a2b7;
+}
+.container__card{
+    width: 100%;
+    height: auto;
 }
 
-body{
-    font-family: 'El Messiri', sans-serif;
-    text-align: center;
-    text-decoration: underline;
-    color: #4a0936;
+
+.card-text{
+    font-family: 'El Messeri', sans-serif;
+    font-size: 14px;
+    border: none;
+
+    
+
 }
 
-h1, p{
-    font-family: 'Kaushan Script', cursive;
+.card-title{
+    font-family: 'El Messeri', sans-serif;
+    font-size: 14px;
+    border: none;
+}
+
+.parrafo{
+    font-family: 'El Messeri', sans-serif;
+    font-size: 14px;
+    border: none;
 }
 
 .container__card{
@@ -330,7 +343,7 @@ h1, p{
 
 .card__back{
     transform: rotateY(180deg);
-    background: rgb(221, 125, 65);
+    background: linear-gradient(90deg, rgba(192,121,142,1) 15%, rgba(191,104,54,1) 46%, rgba(40,97,153,1) 100%);
 }
 
 .body__card_front{
@@ -361,10 +374,21 @@ h1, p{
     transform: translateZ(60px);
 }
 
+.card-title{
+    border: 4px inset #782697;
+    border-radius: 30%;
+    text-align: center;
+    font-weight: bold;
+}
+
 .body__card_back p{
     margin-top: 30px;
-    font-size: 18px;
+    font-size: 16px;
+    height: auto;
+    border: 4px inset #782697;
 }
+
+
 
 .body__card_back input{
     padding: 10px 40px;
@@ -373,7 +397,7 @@ h1, p{
     cursor: pointer;
     border: none;
     color: white;
-    background: #01182b;
+    background: #091c2c;
     box-shadow: 1px 1px 30px -5px #58B0F6;
     border-radius: 10px;
     transition: box-shadow 600ms;
