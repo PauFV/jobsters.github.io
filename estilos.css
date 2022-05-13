@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;700&family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
 
 :root{
     --color-dark: #0d1b2a;
@@ -492,24 +493,98 @@ h3, p{
 
 
 
+/*Aquí debajo va el FOOTER*/
+
 footer{
     width: 100%;
-    height: 170px;
-    background: linear-gradient(90deg, rgb(68, 5, 23) 15%, rgb(119, 56, 19) 46%, rgba(40,97,153,1) 100%);
-}
-
-h4{
-    text-align: center;
-    font-family: 'El Messiri', sans-serif;
-    font-size: 20px;
+    padding: 50px 0px;
+    background-size: cover;
+    text-align: justify;
+    background: #34845F;
+    background: -moz-linear-gradient(left, #34845F 0%, #0E3853 50%, #000000 100%);
+    background: -webkit-linear-gradient(left, #34845F 0%, #0E3853 50%, #000000 100%);
+    background: linear-gradient(to right, #34845F 0%, #0E3853 50%, #000000 100%);
+    font-family: 'Karla', sans-serif;
     font-weight: bold;
-    justify-items: center;
+    background: rgba(65, 5, 22, 0.727);
+    box-shadow: 0 8px 32px 0 rgba(129, 24, 45, 0.37);
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+}
+
+.terms{
+    text-shadow: none;
+    background: none;
+    border: none;
 
 }
-footer address{
-    text-align: center;
-    font-family: 'El Messiri', sans-serif;
+
+.container__footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.box__footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.box__footer .logo img{
+    width: 80px;
+    flex-wrap: wrap;
+}
+
+.box__footer .terms{
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #7a7a7a;
     font-size: 18px;
-    font-weight: bold;
-    justify-items: center;
 }
+
+.box__footer h4{
+    margin-bottom: 30px;
+    color: #308f9c;
+    font-weight: 700;
+}
+
+.box__footer a{
+    margin-top: 10px;
+    color: #6aeaca;
+    font-weight: 600;
+}
+
+.box__footer a:hover{
+    opacity: 0.8;
+}
+
+.box__footer a .fab{
+    font-size: 20px;
+}
+
+.box__copyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.box__copyright p{
+    margin-top: 20px;
+    color: #7a7a7a;
+}
+
+.box__copyright hr{
+    border: none;
+    height: 1px;
+    background-color: #7a7a7a;
+}
+
