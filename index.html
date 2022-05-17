@@ -7,18 +7,18 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="/css/estilos.css">
 
     <title>HOME</title>
 </head>
 <body>
-
+<header>
   <!--NAVBAR-->
   
-  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark" id="navbar">
     <!-- Brand -->
-    <a class="navbar-brand" href="#">JOBSTERS IT
-      <img src="../pictures/cohete.gif" alt="logo evolución" class="logo">
+    <a class="navbar-brand" href="#" id="navbar-brand">JOBSTERS IT
+      <img src="./pictures/cohete.gif" alt="logo evolución" class="logo">
     </a>
   
     <!-- Toggler/collapsibe Button -->
@@ -64,19 +64,19 @@
     <!-- The slideshow -->
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="../pictures/city.jpg" alt="Home">
+        <img src="./pictures/city.jpg" alt="Home">
       </div>
       <div class="carousel-item">
-        <img src="../pictures/city1.jpg" alt="Home">
+        <img src="./pictures/city1.jpg" alt="Home">
       </div>
       <div class="carousel-item">
-        <img src="../pictures/city2.jpg" alt="Home">
+        <img src="./pictures/city2.jpg" alt="Home">
       </div>
       <div class="carousel-item">
-        <img src="../pictures/city3.jpg" alt="Home">
+        <img src="./pictures/city3.jpg" alt="Home">
       </div>
       <div class="carousel-item">
-        <img src="../pictures/city4.jpg" alt="Home">
+        <img src="./pictures/city4.jpg" alt="Home">
       </div>
     </div>
   
@@ -89,18 +89,80 @@
     </a>
   
   </div>
+
+</header>
+
+<main>
+
+  <h1>BIENVENIDOS A JOBSTERS IT</h1>
   
   <hr id="line1">
 
-  <main>
-    <h1>ESPECIALIDADES JOBSTERS IT</h1>
-    <div class="box" id="mockup">Desarrollo Web</div>
-    <div class="box" id="desarrollo">Diseño UX-UI</div>
-    <div class="box" id="identidad">Marca</div>
-    <div class="box" id="branding">Perfil Corporativo</div>
-  </main>
+  <!--Jumbotron Inicio-->
+
+  <div class="jumbotron">
+    <h2>NUESTRAS ESPECIALIDADES</h2>
+    <p>DISEÑO UX-UI</p>
+    <p>DESARROLLO WEB</p>
+    <P>MARKETING DIGITAL</P>
+    <P>ECOMMERCE</P>
+    
+  </div>
 
   <hr id="line2">
+
+  <h2>IDENTIDAD DE JOBSTERS</h2>
+
+  <div class="servicios container-fluid">
+    <div class="row">
+      <div class="col-sm-3 feature feature1">
+        <h2>INFO</h2>
+        <img src="/pictures/LinkedIn_Monochromatic.svg" alt="identidad digital" class="img-feature">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est harum rem temporibus! Suscipit, corrupti quidem?</p>
+      </div>
+      <div class="col-sm-3 feature feature2">
+        <h2>PERSONALIZADA</h2>
+        <img src="/pictures/Campaign launch_Monochromatic.svg" alt="transformación digital">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est harum rem temporibus! Suscipit, corrupti quidem?</p>
+      </div>
+      <div class="col-sm-3 feature feature3">
+        <h2>ESTRATEGIAS</h2>
+        <img src="/pictures/Online payment_Monochromatic.svg" alt="estrategias ecommerce">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est harum rem temporibus! Suscipit, corrupti quidem?</p>
+      </div>
+      <div class="col-sm-3 feature feature4">
+        <h2>AGILE</h2>
+        <img src="/pictures/Problem Solving_Monochromatic.svg" alt="agilidad y conectividad">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est harum rem temporibus! Suscipit, corrupti quidem?</p>
+      </div>
+      <div class="col-sm-3 feature feature5">
+        <h2>NEGOCIOS</h2>
+        <img src="/pictures/Startup_Monochromatic.svg" alt="digitaliza tu negocio">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est harum rem temporibus! Suscipit, corrupti quidem?</p>
+      </div>
+      <div class="col-sm-3 feature feature6">
+        <h2>EMPRENDEDORES</h2>
+        <img src="/pictures/Online report_Monochromatic.svg" alt="reportes y analisis">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est harum rem temporibus! Suscipit, corrupti quidem?</p>
+      </div>
+      <div class="col-sm-3 feature feature7">
+        <h2>ANALISIS</h2>
+        <img src="/pictures/Team building _Monochromatic.svg" alt="trabajo colaborativo">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est harum rem temporibus! Suscipit, corrupti quidem?</p>
+      </div>
+      <div class="col-sm-3 feature feature8">
+        <h2>VENTAS ONLINE</h2>
+        <img src="/pictures/PR_Monochromatic.svg" alt="ventas online y logistica">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est harum rem temporibus! Suscipit, corrupti quidem?</p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+</main>
 
  
 
@@ -110,8 +172,10 @@
         <div class="box__footer">
             <div class="logo">
                 <h4 class="name">JBs| it</h4>
-                <img src="../pictures/cohete.gif" alt="cohete-start">
+                <img src="./pictures/cohete.gif" alt="cohete-start">
             </div>
+            <br><br>
+            <hr class="hr-footer">
             <div class="terms">
                 <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas impedit cum cumque velit libero officiis quam doloremque reprehenderit quae corporis! Delectus architecto officia praesentium atque laudantium, nam deleniti sapiente deserunt.</h4>
             </div>
@@ -147,6 +211,8 @@
         <hr>
         <h5>Todos los derechos reservados © 2022 <b>PauFV</b></h5>
     </div>
+
+    </footer>
 
 
        

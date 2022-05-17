@@ -1,0 +1,585 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;700&family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+/* Estilos Generales */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #3a6186;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #89253e, #3a6186);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #89253e, #3a6186); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    font-weight: 200;
+    font-family: 'El Messeri', sans-serif;
+    
+}
+
+h1{
+    font-family: 'El Messeri', sans-serif;
+    color: #450631;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #13BACE, 2px 2px 2px #CE3333;
+    text-align: center;
+    margin: 15px;
+
+}
+
+
+h2{
+    text-align: center;
+    color: #ce2d04;
+    background: linear-gradient(90deg, rgba(121,188,192,1) 0%, rgba(191,104,54,1) 35%, rgba(40,97,153,1) 100%);
+    height: 60px;
+    padding: 10px;
+    text-shadow: 3px 1px 2px rgba(217,128,236,0.6);
+    font-family: 'El Messiri', sans-serif;
+    border: 5px outset #f56235;
+    font-size: 17px;
+
+}
+
+h3{
+    text-align: center;
+    background: #23074d;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Karla', sans-serif;
+    color: #671903;
+    border: 5px outset #580916;
+
+}
+h4, h5{
+    font-family: 'Karla', sans-serif;
+    color: #89083b;
+    font-size: 14px;
+}
+
+
+.hr-footer{
+    color: #28a9ae;
+}
+
+
+/* estilos navbar */
+
+.navbar{
+    background: #b92b27; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b92b27, #1565c0); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b92b27, #1565c0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #892b64 !important; 
+    justify-content: center;
+    font-family: 'Kaushan Script', cursive;
+    width: 100%;
+    padding: 15px;
+    
+   
+
+}
+
+#navbar a{
+    color: #20aec7;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.collapse-navbar-nav{
+    color: #892b64 !important; 
+    justify-content: center;}
+   
+.logo{
+    width: 50px;
+    height: 50px;
+    color: #620e81;
+}
+
+#line1, #line2{
+    width: 95%;
+    margin: 15px auto;
+    background-color: #620e81;
+    size: 10px;
+    
+}
+
+.carousel-item img{
+    width: 100%;
+
+}
+
+main{
+    height: auto;
+    
+}
+
+.jumbotron{
+    width: 100%;
+    height: 520px;
+    background-image: url(/pictures/diseño.jpg);
+    background-size: cover;
+}
+
+.jumbotron p{
+    background: #ff4b1f; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff4b1f, #1fddff); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff4b1f, #1fddff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: 5px outset #cf1791;
+    font-family: 'El Messari', sans-serif;
+    color: #05354b;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+.servicios{
+    height: auto;
+    width: 100%;
+    background-color: #b8bebf;
+    padding: 15px;
+
+}
+
+.feature{
+   height: 380px;
+   background: #007991;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #78ffd6, #007991);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #78ffd6, #007991); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   border: 2px solid #3ce1b8;  
+}
+
+.feature img{
+    height: 180px;
+    width: 180px;
+}
+
+.feature p{
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    color: #cc5333;
+    text-align: justify;
+
+}
+
+/* PAGES PRODUCTS */
+
+.cards{
+    color: #28a2b7;
+}
+.container__card{
+    width: 100%;
+    height: auto;
+}
+
+
+.card-text{
+    font-family: 'El Messeri', sans-serif;
+    font-size: 14px;
+    border: none;
+
+    
+
+}
+
+.card-title{
+    font-family: 'El Messeri', sans-serif;
+    font-size: 14px;
+    border: none;
+}
+
+.parrafo{
+    font-family: 'El Messeri', sans-serif;
+    font-size: 14px;
+    border: none;
+}
+
+.container__card{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    perspective: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to top, #4fb576 0%, #44c489 30%, #28a9ae 46%, #28a2b7 59%, #4c7788 71%, #6c4f63 86%, #432c39 100%);
+    background-size: cover;
+}
+
+.card__father{
+    margin: 20px;
+    perspective: 1000px;
+}
+
+.card__father:hover .card{
+    transform: rotateY(180deg);
+}
+
+
+.card{
+    width: 350px;
+    height: 400px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 600ms;
+}
+
+.card__front{
+    background-size: cover;
+    background-position: center;
+}
+
+
+.card__front,
+.card__back{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    border-radius: 20px;
+}
+
+.card__back{
+    transform: rotateY(180deg);
+    background: linear-gradient(90deg, rgba(192,121,142,1) 15%, rgba(191,104,54,1) 46%, rgba(40,97,153,1) 100%);
+}
+
+.body__card_front{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    transform: translateZ(60px);
+}
+
+.bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.4);
+    border-radius: 20px;
+}
+
+.body__card_back{
+    padding: 40px;
+    text-align: center;
+    transform: translateZ(60px);
+}
+
+.card-title{
+    border: 4px inset #782697;
+    border-radius: 30%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.body__card_back p{
+    margin-top: 30px;
+    font-size: 16px;
+    height: auto;
+    border: 4px inset #782697;
+}
+
+
+
+.body__card_back input{
+    padding: 10px 40px;
+    margin-top: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background: #091c2c;
+    box-shadow: 1px 1px 30px -5px #58B0F6;
+    border-radius: 10px;
+    transition: box-shadow 600ms;
+}
+
+.body__card_back input:hover{
+    box-shadow: 1px 1px 30px 0px #449de6;
+} 
+
+/*Fin Page Products */
+
+/*Inicio Page Clients */
+
+.cards-clients{
+    width: 100%;
+    height: auto;
+
+}
+
+.container{
+    width: 90%;
+    height: auto;
+}
+
+/*Aqui empieza Page form */
+
+.container {
+    width: 1000px;
+    height: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.logo {
+    text-align: center;
+    font-size: 14px;
+    font-family: 'El Messeri', sans-serif;
+}
+
+.logo span {
+    color: #B70E21;
+    font-weight: bold;
+}
+
+form{
+    width: 100%;
+    height: auto;
+    background-image: url(/pictures/formu.jpg);
+    background-size: cover;
+    color: beige;
+    padding: 20px;
+    font-size: 20px;
+    
+}
+
+.contact-wrapper {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+
+.contact-wrapper > * {
+    padding: 1em;
+}
+
+.contact-form {
+    background: #222222;
+}
+
+.contact-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form label {
+    display: block;
+}
+
+.contact-form form p {
+    margin: 0;
+    padding: 1em;
+}
+
+.contact-form form .block {
+    grid-column: 1 / 3;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: 1px;
+    border: none;
+    background: none;
+    outline: 0;
+    color: #fff;
+    border-bottom: 1px solid #d63031;
+}
+
+.contact-form form button {
+    background: #B70E21;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+    background: #d63031;
+    color: #fff;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
+
+/* CONTACT INFO */
+.contact-info {
+    background: #000;
+}
+
+.contact-info h4, .contact-info ul, .contact-info p {
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+/* LARGE SIZE */
+@media(min-width: 700px) {
+    
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .contact-wrapper > * {
+        padding: 2em;
+    }
+    .contact-info h4,
+    .contact-info ul,
+    .contact-info p {
+        text-align: left;
+    }
+
+}
+
+@media(min-width: 500px) {
+
+    .logo{text-align: center;
+        font-size: 15px;
+
+    }
+    
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .contact-wrapper > * {
+        padding: 2em;
+    }
+    .contact-info h4,
+    .contact-info ul,
+    .contact-info p {
+        text-align: left;
+    }
+
+}
+/*Aquí debajo va el FOOTER*/
+
+footer{
+    width: 100%;
+    padding: 50px 0px;
+    background-size: cover;
+    text-align: justify;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    background: rgba(65, 5, 22, 0.727);
+    box-shadow: 0 8px 32px 0 rgba(129, 24, 45, 0.37);
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+}
+
+.terms{
+    text-shadow: none;
+    background: none;
+    border: none;
+
+}
+
+.container__footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.box__footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.box__footer .logo img{
+    width: 80px;
+    flex-wrap: wrap;
+}
+
+.box__footer .terms{
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #7a7a7a;
+    font-size: 18px;
+}
+
+.box__footer h4{
+    margin-bottom: 30px;
+    color: #308f9c;
+    font-weight: 700;
+}
+
+.box__footer a{
+    margin-top: 10px;
+    color: #6aeaca;
+    font-weight: 600;
+}
+
+.box__footer a:hover{
+    opacity: 0.8;
+}
+
+.box__footer a .fab{
+    font-size: 20px;
+}
+
+.box__copyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.box__copyright p{
+    margin-top: 20px;
+    color: #7a7a7a;
+}
+
+.box__copyright hr{
+    border: none;
+    height: 1px;
+    background-color: #7a7a7a;
+}
+
+
+/* Media Queries */
+
+
+@media(min-width: 500px) {
+
+    .logo{text-align: center;
+        font-size: 15px;
+
+    }
+    
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .contact-wrapper > * {
+        padding: 2em;
+    }
+    .contact-info h4,
+    .contact-info ul,
+    .contact-info p {
+        text-align: left;
+    }
+}

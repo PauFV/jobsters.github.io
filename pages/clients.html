@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,399 +9,97 @@
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="../estilos.css">
+    <link rel="stylesheet" href="../css/estilos.css">
 
 </head>
 <body>
- <!--NAVBAR-->
+
   
- <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-  <!-- Brand -->
-  <a class="navbar-brand" href="#">JOBSTERS IT
-    <img src="../pictures/cohete.gif" alt="logo evolución" class="logo">
-  </a>
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <!-- Brand -->
+    <a class="navbar-brand" href="#">JOBSTERS IT
+      <img src="../pictures/cohete.gif" alt="logo evolución" class="logo">
+    </a>
+  
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/clients.html">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./pages/about.html">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./pages/products.html">PRODUCTS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./pages/clients.html">CLIENTS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./pages/form.html">CONTACT</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-  <!-- Toggler/collapsibe Button -->
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+  <!--NAVBAR FIN-->
 
-  <!-- Navbar links -->
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="index.html">HOME</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="../pages/about.html">ABOUT</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="../pages/products.html">PRODUCTS</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="../pages/clients.html">CLIENTS</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="../pages/form.html">CONTACT</a>
-      </li>
+  <!--CAROUSEL-->
+
+  <div id="demo" class="carousel slide" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
     </ul>
-  </div>
-</nav>
-
-
-<!-- CAROUSEL -->
-<div id="demo" class="carousel slide" data-ride="carousel">
-
-  <!-- Indicators -->
-  <ul class="carousel-indicators">
-    <li data-target="#demo" data-slide-to="0" class="active"></li>
-    <li data-target="#demo" data-slide-to="1"></li>
-    <li data-target="#demo" data-slide-to="2"></li>
-  </ul>
-
-  <!-- The slideshow -->
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="../pictures/city5.jpg" alt="clientes">
+  
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../pictures/city.jpg" alt="Home">
+      </div>
+      <div class="carousel-item">
+        <img src="../pictures/city1.jpg" alt="Home">
+      </div>
+      <div class="carousel-item">
+        <img src="../pictures/city2.jpg" alt="Home">
+      </div>
+      <div class="carousel-item">
+        <img src="../pictures/city3.jpg" alt="Home">
+      </div>
+      <div class="carousel-item">
+        <img src="../pictures/city4.jpg" alt="Home">
+      </div>
     </div>
-    <div class="carousel-item">
-      <img src="../pictures/portada.jpg" alt="clientes">
-    </div>
-    <div class="carousel-item">
-      <img src="../pictures/potenciate2.jpg" alt="clientes">
-    </div>
-    <div class="carousel-item">
-      <img src="../pictures/grid2.jpg" alt="clientes">
-    </div>
-    <div class="carousel-item">
-      <img src="../pictures/grid3.jpg" alt="clientes">
-    </div>
+  
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  
   </div>
 
-  <!-- Left and right controls -->
-  <a class="carousel-control-prev" href="#demo" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </a>
-  <a class="carousel-control-next" href="#demo" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </a>
-</div>
 
-<div class="team-area">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <div class="single-team">
-          <div class="img-area">
-            <img src="../pictures/lucas.jpg" class="img-responsive" alt="cliente">
-            <div class="social">
-              <ul class="list-inline">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="img-text">
-            <h4>Lucas Leiva</h4>
-            <h5>Asesor</h5>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <div class="single-team">
-          <div class="img-area">
-            <img src="../pictures/irina.jpg" class="img-responsive" alt="cliente">
-            <div class="social">
-              <ul class="list-inline">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="img-text">
-            <h4>Irina Sokova</h4>
-            <h5>Diseñadora</h5>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <div class="single-team">
-          <div class="img-area">
-            <img src="../pictures/gaston.jpg" class="img-responsive" alt="cliente">
-            <div class="social">
-              <ul class="list-inline">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="img-text">
-            <h4>Gaston Kirbaum</h4>
-            <h5>Fotógrafo</h5>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="team-area">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <div class="single-team">
-          <div class="img-area">
-            <img src="../pictures/elena.jpg" class="img-responsive" alt="cliente">
-            <div class="social">
-              <ul class="list-inline">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="img-text">
-            <h4>Elena Rinaldi</h4>
-            <h5>Seguros</h5>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <div class="single-team">
-          <div class="img-area">
-            <img src="../pictures/banda.jpg" class="img-responsive" alt="">
-            <div class="social">
-              <ul class="list-inline">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="img-text">
-            <h4>Eureka | Rocks</h4>
-            <h5>Banda Musical</h5>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <div class="single-team">
-          <div class="img-area">
-            <img src="../pictures/cowork.jpg" class="img-responsive" alt="">
-            <div class="social">
-              <ul class="list-inline">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="img-text">
-            <h4>AJ | AgileJbs</h4>
-            <h>Coworking</h></h5>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="team-area">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <div class="single-team">
-          <div class="img-area">
-            <img src="../pictures/cristian.jpg" class="img-responsive" alt="">
-            <div class="social">
-              <ul class="list-inline">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="img-text">
-            <h4>Cristian Soler</h4>
-            <h5>Emprendedor</h5>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <div class="single-team">
-          <div class="img-area">
-            <img src="../pictures/karo.jpg" class="img-responsive" alt="">
-            <div class="social">
-              <ul class="list-inline">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="img-text">
-            <h4>Karolina Lazzo</h4>
-            <h5>Bailarina</h5>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <div class="single-team">
-          <div class="img-area">
-            <img src="../pictures/bar.jpg" class="img-responsive" alt="">
-            <div class="social">
-              <ul class="list-inline">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="img-text">
-            <h4>Alaska Inks</h4>
-            <h5>Bar</h5>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="team-area">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <div class="single-team">
-          <div class="img-area">
-            <img src="../pictures/emma.jpg" class="img-responsive" alt="">
-            <div class="social">
-              <ul class="list-inline">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="img-text">
-            <h4>Emmanuel Jones</h4>
-            <h5>Programador</h5>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <div class="single-team">
-          <div class="img-area">
-            <img src="../pictures/magenta.jpg" class="img-responsive" alt="">
-            <div class="social">
-              <ul class="list-inline">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="img-text">
-            <h4>M|D Magenta</h4>
-            <h5>Agencia MKT</h5>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <div class="single-team">
-          <div class="img-area">
-            <img src="../pictures/legales.jpg" class="img-responsive" alt="">
-            <div class="social">
-              <ul class="list-inline">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="img-text">
-            <h4>L&S | Law</h4>
-            <h5>Buro Legal</h5>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="team-area">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <div class="single-team">
-          <div class="img-area">
-            <img src="../pictures/monica.jpg" class="img-responsive" alt="">
-            <div class="social">
-              <ul class="list-inline">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="img-text">
-            <h4>Monica Ledesma</h4>
-            <h5>Publicidad</h5>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <div class="single-team">
-          <div class="img-area">
-            <img src="../pictures/cafe.jpg" class="img-responsive" alt="">
-            <div class="social">
-              <ul class="list-inline">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="img-text">
-            <h4>Laredo Cafe</h4>
-            <h5>Cafe-Restó</h5>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <div class="single-team">
-          <div class="img-area">
-            <img src="../pictures/gym.jpg" class="img-responsive" alt="">
-            <div class="social">
-              <ul class="list-inline">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="img-text">
-            <h4>Jaguars Sports</h4>
-            <h5>Gimnasio</h5>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+<!-- fin CAROUSEL -->
+
+
+
+
+   
+
+
+
 
 <footer>
 
@@ -411,6 +109,8 @@
               <h4 class="name">JBs| it</h4>
               <img src="../pictures/cohete.gif" alt="cohete-start">
           </div>
+          <br><br>
+          <hr>
           <div class="terms">
               <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas impedit cum cumque velit libero officiis quam doloremque reprehenderit quae corporis! Delectus architecto officia praesentium atque laudantium, nam deleniti sapiente deserunt.</h4>
           </div>
@@ -447,6 +147,7 @@
       <h5>Todos los derechos reservados © 2022 <b>PauFV</b></h5>
   </div>
 
+  </footer>
 
      
 

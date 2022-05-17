@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="../estilos.css">
+    <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
  <!--NAVBAR-->
@@ -28,32 +28,65 @@
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="form.html">HOME</a>
+        <a class="nav-link" href="../index.html">HOME</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="../pages/about.html">ABOUT</a>
+        <a class="nav-link" href="/pages/about.html">ABOUT</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="../pages/products.html">PRODUCTS</a>
+        <a class="nav-link" href="/pages/products.html">PRODUCTS</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="../pages/clients.html">CLIENTS</a>
+        <a class="nav-link" href="/pages/clients.html">CLIENTS</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="../pages/form.html">CONTACT</a>
+        <a class="nav-link" href="/pages/form.html">CONTACT</a>
       </li>
     </ul>
   </div>
 </nav>
-        <!--start jumbotron-->
 
-        <div class="jumbotron">
-            <h1>¿QUIEN SOY?</h1>
-            <p>Conoce mi Ruta</p>
-        </div>
-
-        <!--Fin Jumbotron-->
+<!--fin navbar -->
         
+<!--CAROUSEL-->
+
+  <div id="demo" class="carousel slide" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+  
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../pictures/city.jpg" alt="Home">
+      </div>
+      <div class="carousel-item">
+        <img src="../pictures/city1.jpg" alt="Home">
+      </div>
+      <div class="carousel-item">
+        <img src="../pictures/city2.jpg" alt="Home">
+      </div>
+      <div class="carousel-item">
+        <img src="../pictures/city3.jpg" alt="Home">
+      </div>
+      <div class="carousel-item">
+        <img src="../pictures/city4.jpg" alt="Home">
+      </div>
+    </div>
+  
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  
+  </div>
         <!--Empieza nueva seccion-->
 
         <h2>Mi Ruta</h2>
@@ -92,16 +125,60 @@
 
 
         <footer>
-  
-          <h4>Contactenos</h4>
-          
-      
-          <address>
-            Ayacucho 220 C.A.B.A. - Buenos Aires - Argentina <br>
-            Lunes a viernes de 8 a 20 hs. - E-mail: info@jobstersit.com.ar
-          </address>
-      
+
+          <div class="container__footer">
+              <div class="box__footer">
+                  <div class="logo">
+                      <h4 class="name">JBs| it</h4>
+                      <img src="../pictures/cohete.gif" alt="cohete-start">
+                  </div>
+                  <br><br>
+                  <hr>
+                  <div class="terms">
+                      <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas impedit cum cumque velit libero officiis quam doloremque reprehenderit quae corporis! Delectus architecto officia praesentium atque laudantium, nam deleniti sapiente deserunt.</h4>
+                  </div>
+              </div>
+              <div class="box__footer">
+                  <h4>Soluciones</h4>
+                  <a href="#">Paginas Web</a>
+                  <a href="#">Marketing Digital</a>
+                  <a href="#">E-commerce</a>
+                  <a href="#">Asesoria</a>
+              </div>
+        
+              <div class="box__footer">
+                  <h4>JOBSTERS</h4>
+                  <a href="#HOME">HOME</a>
+                  <a href="#">ABOUT ME</a>
+                  <a href="#">PRODUCTS</a>
+                  <a href="#">CLIENTS</a>  
+                  <a href="#">CONTACT</a>    
+              </div>
+        
+              <div class="box__footer">
+                  <h4>Redes Sociales</h4>
+                  <a href="#"> <i class="fab fa-facebook-square"></i> Facebook</a>
+                  <a href="#"><i class="fab fa-twitter-square"></i> Twitter</a>
+                  <a href="#"><i class="fab fa-linkedin"></i> Linkedin</a>
+                  <a href="#"><i class="fab fa-instagram-square"></i> Instagram</a>
+              </div>
+        
+          </div>
+        
+          <div class="box__copyright">
+              <hr>
+              <h5>Todos los derechos reservados © 2022 <b>PauFV</b></h5>
+          </div>
+
         </footer>
+        
+        
+             
+        
+        
+        
+        
+        
 
 
 
