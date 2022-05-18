@@ -11,86 +11,114 @@
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
+<Header></Header>
+
 <!-- NAVBAR DE BOOTSTRAP-->
 <!--NAVBAR-->
   
-<nav class="navbar navbar-expand-md bg-dark navbar-dark">
-  <!-- Brand -->
-  <a class="navbar-brand" href="#">JOBSTERS IT
-    <img src="../pictures/cohete.gif" alt="logo evolución" class="logo">
-  </a>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark" id="navbar">
+    <!-- Brand -->
+    <a class="navbar-brand" href="#">JOBSTERS IT
+        <img src="../pictures/cohete.gif" alt="logo evolución" class="logo">
+    </a>
 
-  <!-- Toggler/collapsibe Button -->
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-  <!-- Navbar links -->
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="../index.html">HOME</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./pages/about.html">ABOUT</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./pages/products.html">PRODUCTS</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./pages/clients.html">CLIENTS</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./pages/form.html">CONTACT</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-</nav>
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="../index.html">HOME</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="./pages/about.html">ABOUT</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="./pages/products.html">PRODUCTS</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="./pages/clients.html">CLIENTS</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="./pages/form.html">CONTACT</a>
+        </li>
+        </ul>
+    </div>
+    </nav>
+    </nav>
 <!-- FIN NAVBAR DE BOOTSTRAP-->
 
 
-<div id="demo" class="carousel slide" data-ride="carousel">
+    <div id="demo" class="carousel slide" data-ride="carousel">
 
-    <!-- Indicators -->
-    <ul class="carousel-indicators">
-      <li data-target="#demo" data-slide-to="0" class="active"></li>
-      <li data-target="#demo" data-slide-to="1"></li>
-      <li data-target="#demo" data-slide-to="2"></li>
-    </ul>
-  
-    <!-- The slideshow -->
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="../pictures/cards3.jpg" alt="productos">
-      </div>
-      <div class="carousel-item">
-        <img src="../pictures/jumbo.jpg" alt="productos">
-      </div>
-      <div class="carousel-item">
-        <img src="../pictures/cards5.jpg" alt="productos">
-      </div>
-      <div class="carousel-item">
-        <img src="../pictures/digital.jpg" alt="productos">
-      </div>
-      <div class="carousel-item">
-        <img src="../pictures/prod.jpg" alt="productosg">
-      </div>
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+    
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="../pictures/cards3.jpg" alt="productos">
+        </div>
+        <div class="carousel-item">
+            <img src="../pictures/jumbo.jpg" alt="productos">
+        </div>
+        <div class="carousel-item">
+            <img src="../pictures/cards5.jpg" alt="productos">
+        </div>
+        <div class="carousel-item">
+            <img src="../pictures/digital.jpg" alt="productos">
+        </div>
+        <div class="carousel-item">
+            <img src="../pictures/prod.jpg" alt="productosg">
+        </div>
+        </div>
+    
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        </a>
+    
     </div>
-  
-    <!-- Left and right controls -->
-    <a class="carousel-control-prev" href="#demo" data-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
-    </a>
-    <a class="carousel-control-next" href="#demo" data-slide="next">
-      <span class="carousel-control-next-icon"></span>
-    </a>
-  
-  </div>
+
+</Header>
 
   <main>
-    <h1 class="cards">ELIGE EL SERVICIO</h1>
-    <h3 class="card-title">ARMA UN PACK</h3>
+
+    <h1>ELIGE EL SERVICIO</h1>
+
+    <hr id="line1">
+
+    <!--Jumbotron Inicio-->
+  
+    <div class="jumbotron" id="jumbotron2">
+      <h3>PRODUCTOS RECOMENDADOS</h3>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis soluta qui laudantium id vitae esse, recusandae itaque eligendi voluptatum enim temporibus ut consequatur eos deleniti molestiae officiis ullam dicta quia autem. Voluptate?</p>
+      
+  
+      <a href="#" class="btn btn-info" role="button">HOME</a>
+      
+      <a href="#" class="btn btn-info" role="button">SERVICIOS</a>
+     
+      <a href="#" class="btn btn-info" role="button">ABOUTE</a>
+      
+    </div>
+  
+    <hr id="line2">
+
+
+
+
+    <h2 class="card-title">ARMA UN PACK</h2>
 
 
     <div class="container__card">
