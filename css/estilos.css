@@ -54,10 +54,33 @@ h3{
     border: 5px outset #580916;
 
 }
-h4, h5{
+h4{
     font-family: 'Karla', sans-serif;
-    color: #89083b;
-    font-size: 14px;
+    color: #4ba1c3;
+    font-size: 22px;
+    background: #e43a15;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #e65245, #e43a15);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #e65245, #e43a15); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    border-radius: 82% 10% 98% 0% / 100% 10% 97% 10%;
+    border: 5px outset #0d9078;
+    height: auto;
+
+
+}
+
+
+h5{
+    font-family: 'Karla', sans-serif;
+    color: #4ba1c3;
+    font-size: 20px;
+    background: #e43a15;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #e65245, #e43a15);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #e65245, #e43a15); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    border-radius: 23% 77% 0% 100% / 22% 100% 0% 78%;
+    border: 5px outset #0d9078;
+    height: auto;
 }
 
 
@@ -182,6 +205,7 @@ main{
     background: -webkit-linear-gradient(to right, #78ffd6, #007991);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #78ffd6, #007991); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
    border: 2px solid #3ce1b8;  
+   
 }
 
 .feature img{
@@ -244,6 +268,7 @@ main{
 
 
 .raw{
+    height:auto;
     background: #f2709c;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #ff9472, #f2709c);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #ff9472, #f2709c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -269,6 +294,13 @@ main{
 
 }
 
+.btn-danger{
+    background: #FF4E50;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F9D423, #FF4E50);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F9D423, #FF4E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
 
 
 
@@ -373,146 +405,39 @@ main{
 
 /*Aqui empieza Page form */
 
-.container {
-    width: 1000px;
+#jumbotron5{
+    background-image: url(../pictures/jump.jpg);
     height: auto;
-    margin-right: auto;
-    padding: 1.5em;
+
 }
 
-ul {
-    list-style: none;
-    padding: 0;
+#jumbotron5 p{color: #f97582;
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: 5px outset #f56235;
+    font-family: 'Karla', sans-serif;
+    font-weight: 300;
+
 }
 
-.logo {
-    text-align: center;
-    font-size: 14px;
-    font-family: 'El Messeri', sans-serif;
-}
+/* FORM */
 
-.logo span {
-    color: #B70E21;
-    font-weight: bold;
-}
-
-form{
+.form{
     width: 100%;
     height: auto;
-    background-image: url(/pictures/formu.jpg);
-    background-size: cover;
-    color: beige;
-    padding: 20px;
-    font-size: 20px;
-    
-}
-
-.contact-wrapper {
-    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
-}
-
-.contact-wrapper > * {
-    padding: 1em;
-}
-
-.contact-form {
-    background: #222222;
-}
-
-.contact-form form {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.contact-form form label {
-    display: block;
-}
-
-.contact-form form p {
-    margin: 0;
-    padding: 1em;
-}
-
-.contact-form form .block {
-    grid-column: 1 / 3;
-}
-
-.contact-form form button,
-.contact-form form input,
-.contact-form form textarea {
-    width: 100%;
-    padding: 1px;
-    border: none;
-    background: none;
-    outline: 0;
-    color: #fff;
-    border-bottom: 1px solid #d63031;
-}
-
-.contact-form form button {
-    background: #B70E21;
-    border: 0;
-    text-transform: uppercase;
-    padding: 1em;
-}
-
-.contact-form form button:hover,
-.contact-form form button:focus {
-    background: #d63031;
-    color: #fff;
-    transition: background-color 1s ease-out;
-    outline: 0;
-}
-
-/* CONTACT INFO */
-.contact-info {
-    background: #000;
-}
-
-.contact-info h4, .contact-info ul, .contact-info p {
-    text-align: center;
-    margin: 0 0 1rem 0;
-}
-
-/* LARGE SIZE */
-@media(min-width: 700px) {
-    
-    .contact-wrapper {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-    }
-    .contact-wrapper > * {
-        padding: 2em;
-    }
-    .contact-info h4,
-    .contact-info ul,
-    .contact-info p {
-        text-align: left;
-    }
+    min-height: 650px;
+    font-family: 'El Messari', sans-serifs;
+    font-size: 15px;
+    color:#dfa95c ;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
-@media(min-width: 500px) {
 
-    .logo{text-align: center;
-        font-size: 15px;
 
-    }
-    
-    .contact-wrapper {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    .contact-wrapper > * {
-        padding: 2em;
-    }
-    .contact-info h4,
-    .contact-info ul,
-    .contact-info p {
-        text-align: left;
-    }
-
-}
 /*Aquí debajo va el FOOTER*/
 
 footer{
