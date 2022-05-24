@@ -144,7 +144,7 @@ main{
 .jumbotron{
     width: 100%;
     min-height: 520px;
-    background-image: url(/pictures/diseño.jpg);
+    background-image: url(../pictures/diseño.jpg);
     background-size: cover;
 }
 
