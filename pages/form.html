@@ -9,7 +9,7 @@
     <title>JOBSTERS IT | CONTACT</title>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="../css/estilos.css">
 
 </head>
@@ -17,9 +17,9 @@
 <header>
  <!--NAVBAR-->
   
- <nav class="navbar navbar-expand-md bg-dark navbar-dark" id="navbar">
+ <nav class="navbar navbar-expand-md bg-dark navbar-dark animate__animated animate__backInRight" id="navbar">
   <!-- Brand -->
-  <a class="navbar-brand" href="#">JOBSTERS IT
+  <a class="navbar-brand animate__animated animate__fadeInDown" href="#">JOBSTERS IT
     <img src="../pictures/cohete.gif" alt="logo evolución" class="logo">
   </a>
 
@@ -104,50 +104,55 @@
 
   <!--Jumbotron Inicio-->
 
-  <div class="jumbotron" id="jumbotron5">
+  <div class="jumbotron animate__animated animate__pulse" id="jumbotron5">
 
-    <h2>ARMA TU PACK</h2>
-    <p>ANIMATE A DAR EL SALTO</p>
+    <h2 class="jumbo">ARMA TU PACK</h2>
+    <p class="about">ANIMATE A DAR EL SALTO</p>
     
    
 
-    <a href="#" class="btn btn-info" role="button">HOME</a>
+    <a href="../index.html" class="btn btn-info" role="button">HOME</a>
 
-    <a href="#" class="btn btn-info" role="button">CLIENTES</a>
+    <a href="../pages/clients.html" class="btn btn-info" role="button">CLIENTES</a>
    
-    <a href="#" class="btn btn-info" role="button">ABOUT</a>
+    <a href="../pages/about.html" class="btn btn-info" role="button">ABOUT</a>
+
+    <a href="../pages/products.html" class="btn btn-info" role="button">PRODUCTOS</a>
+
+
     
   </div>
 
   <!--Fin Jumbotron-->
 
 <center>
-<Section class="form">
+<Section class="form animate__animated animate__jackInTheBox">
 
-  <h4>Completa el Formulario</h4>
+  <h5>Completar</h5>
 
 <div class="row-my-5">
 
 <div class="col-sm-12 col-md-12 col-lg-12">
 <form action="" method="post" netlify>
   <div class="form-group">
-    <label for="">Nombre</label>
+    <label for=""><h3 id="name">Nombre <br> <i class="fas fa-user"></i></h3> </label>
     <input type="text" placeholder="intro nombre y apellido" maxlength="20" id="nombre" name="nombre" class="form-control" required>
+   
   </div>
   <div class="form-group">
-  <label for="">Email</label>
+  <label for=""><h3 id="correo">EMAIL <br> <i class="fas fa-envelope-open"></i></h3></label>
   <input type="text" placeholder="correo electronico" maxlength="20" id="email" name="email" class="form-control" required>
   </div>
   <div class="form-group">
-  <label for="">Mobile</label>
+  <label for=""><h3 id="mobile">MOBILE <br> <i class="fas fa-mobile"></i></h3></label>
   <input type="tel" placeholder="intro telefono celular" min="12" max="22" id="telefono" name="celular" class="form-control" required>
   </div>
   <div class="form-group">
-  <label for="">Actividad</label>
+  <label for=""><h3 id="rubro">ACTIVIDAD <br> <i class="fas fa-briefcase"></i></h3></label>
   <input type="text" name="rubro" id="profesion" placeholder="intro actividad, profesion o rubro" class="form-control" required>
   </div>
   <div class="form-group">
-  <label for="">Servicio</label>
+  <label for=""><h3 id="service">SERVICIOS <br> <i class="fas fa-shopping-basket"></i></h3></label>
   <select name="servicio" id="servicio" class="form-control">
     <option value="web">Desarrollo Web</option>
     <option value="mkt">Marketing Digital</option>
@@ -157,13 +162,13 @@
   </select>
 </div>
 <div class="form-group">
-  <label for="">Subir idea o CV</label>
+  <label for=""><h3 id="cv"> idea o CV <br> <i class="fas fa-file"></i></h3></label>
   <input type="file" class="form-control"> PDF
 </div>
 
 <div class="form-group">
-  <button type="submit" class="btn btn-secondary">info</button>
-  <button type="submit" class="btn btn-danger">Cotizar</button>
+  <button type="submit" class="btn btn-secondary" id="btn-info">Info | <i class="fas fa-info"></i></button>
+  <button type="submit" class="btn btn-danger" id="btn-cotizar">Cotizar |<i class="fas fa-money-bill"></i> </button>
 </div>
 
 </form>
@@ -190,17 +195,17 @@
   <div class="container__footer">
       <div class="box__footer">
           <div class="logo">
-              <h5 class="name">JBs| it</h5>
+              <h2 class="name" id="namelogo">JBs| it</h2>
               <img src="../pictures/cohete.gif" alt="cohete-start">
           </div>
           <br><br>
           <hr>
           <div class="terms">
-              <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas impedit cum cumque velit libero officiis quam doloremque reprehenderit quae corporis! Delectus architecto officia praesentium atque laudantium, nam deleniti sapiente deserunt.</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, reprehenderit quae corporis! Delectus architecto officia praesentium atque laudantium, nam deleniti sapiente deserunt.</p>
           </div>
       </div>
       <div class="box__footer">
-          <h5>Soluciones</h5>
+          <h2 class="letters">Soluciones</h2>
           <a href="#">Paginas Web</a>
           <a href="#">Marketing Digital</a>
           <a href="#">E-commerce</a>
@@ -208,7 +213,7 @@
       </div>
 
       <div class="box__footer">
-          <h5>JOBSTERS</h5>
+          <h2 class="letters">JOBSTERS</h2>
           <a href="#HOME">HOME</a>
           <a href="#">ABOUT ME</a>
           <a href="#">PRODUCTS</a>
@@ -217,7 +222,7 @@
       </div>
 
       <div class="box__footer">
-          <h5>RRSS</h5>
+          <h2 class="letters" >RRSS</h2>
           <a href="#"> <i class="fab fa-facebook-square"></i> Facebook</a>
           <a href="#"><i class="fab fa-medium"></i> Medium</a>
           <a href="#"><i class="fab fa-linkedin"></i> Linkedin</a>

@@ -7,12 +7,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body{
-    background: #3a6186;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #89253e, #3a6186);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #89253e, #3a6186); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    background-image: linear-gradient(to right top, #930c3d, #98235e, #953a7e, #89509b, #7765b2, #6176c3, #4487d0, #1696d7, #00a7db, #00b6d9, #00c5d2, #32d2c8);
     font-weight: 200;
     font-family: 'El Messeri', sans-serif;
     
@@ -33,7 +32,7 @@ h1{
 h2{
     text-align: center;
     color: #ce2d04;
-    background: linear-gradient(90deg, rgba(121,188,192,1) 0%, rgba(191,104,54,1) 35%, rgba(40,97,153,1) 100%);
+    background-image: linear-gradient(to right top, #e28c62, #eb838b, #da87b4, #b493d1, #83a0da, #63abdc, #48b3d5, #43bac7, #46c5c0, #5acfb3, #78d7a2, #9bdd91);background-image: linear-gradient(to right top, #e28c62, #eb838b, #da87b4, #b493d1, #83a0da, #63abdc, #48b3d5, #43bac7, #46c5c0, #5acfb3, #78d7a2, #9bdd91);
     height: 60px;
     padding: 10px;
     text-shadow: 3px 1px 2px rgba(217,128,236,0.6);
@@ -46,9 +45,7 @@ h2{
 
 h3{
     text-align: center;
-    background: #23074d;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: linear-gradient(to left top, #38f6e5, #00dff9, #00c4ff, #00a5ff, #0080ff, #486dfd, #7155f4, #932fe5, #b832da, #d43dd0, #ea4cc7, #fb5fc0);
     font-family: 'Karla', sans-serif;
     color: #671903;
     border: 5px outset #580916;
@@ -58,9 +55,7 @@ h4{
     font-family: 'Karla', sans-serif;
     color: #4ba1c3;
     font-size: 22px;
-    background: #e43a15;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #e65245, #e43a15);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #e65245, #e43a15); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: linear-gradient(to right, #e9423a, #e75135, #e45f31, #e16b2e, #dd762d, #e06c3a, #e06446, #df5c52, #d24770, #b3428b, #82499f, #374fa4);
     text-align: center;
     border-radius: 82% 10% 98% 0% / 100% 10% 97% 10%;
     border: 5px outset #0d9078;
@@ -78,14 +73,24 @@ h5{
     background: -webkit-linear-gradient(to right, #e65245, #e43a15);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #e65245, #e43a15); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     text-align: center;
-    border-radius: 23% 77% 0% 100% / 22% 100% 0% 78%;
+    border-radius: 30px;
     border: 5px outset #0d9078;
     height: auto;
+
 }
+ p{
+     color: #f77f69;
+     font-size: 14px;
+     font-family: 'Karla', sans-serif;
+     font-weight: bold;
+     
+
+ }
 
 
 .hr-footer{
     color: #28a9ae;
+
 }
 
 
@@ -226,8 +231,9 @@ main{
 /* Inicio Pages About */
 
 #jumbotron1{
-    background-image: url(../pictures/legales.jpg);
+    background-image: url(../pictures/ecommerce.jpg);
     height: auto;
+    background-size: fill;
     
 }
 
@@ -275,6 +281,18 @@ main{
 
 }
 
+.jumbo{
+    border-radius: 50%;
+}
+
+.about{
+    border-radius: 15px;
+}
+
+.home{
+    border-radius: 25%;
+}
+
 /* PAGES PRODUCTS */
 
 #jumbotron4{
@@ -295,19 +313,37 @@ main{
 }
 
 .btn-danger{
-    background: #FF4E50;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #F9D423, #FF4E50);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #F9D423, #FF4E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: linear-gradient(to bottom, #e97e3a, #f76a62, #f2618c, #d968b3, #ad76d0, #8d7dd5, #6b82d5, #4585d0, #3c83c6, #3781bb, #357eaf, #377ba4);
 
+    color: white;
+    border-radius: 40px;    
+    box-shadow: 0 0 0 0 rgba(143, 64, 248, 0.5), 0 0 0 0 rgba(39, 200, 255, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 
+    overflow: hidden;
 }
 
+.btn-danger::after{
+    content: "";
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: -50px;
+    left: -100px;
+    background: #13ff13;
+    background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+    z-index: -1;
+    transition: transform 0.5s ease;
+}
 
+.btn-danger:hover{
+    transform: translate(0, -6px);
+    box-shadow: 10px -10px 25px 0 rgba(16, 226, 253, 0.5), -10px 10px 25px 0 rgba(183, 0, 255, 0.794);
+}
 
-
-
-
-
+.btn-danger:hover::after{
+    transform: rotate(150deg);
+}
 
 
 /*Fin Page Products */
@@ -320,6 +356,7 @@ main{
     background-size: cover;
     height: auto;
 }
+
 
 .container-card{
 	width: 100%;
@@ -391,7 +428,28 @@ main{
 .card .contenido-card a:hover{
 	background: #2fb4cc;
 	color: #fff;
+
+    
 }
+
+#client{
+    color: #930c3d;
+    font-family: 'Kaushan Script', cursive;
+    background-image: linear-gradient(to right, #f19230, #fd8a4b, #ff8464, #ff817c, #ff8292, #ff8a89, #fd9283, #f99a7e, #e5b16d, #c5c776, #9dd997, #72e6c7);
+}
+
+#contacto{
+    font-family: 'Kaushan Script', cursive;
+}
+#contacto:hover{
+
+    background: #0898d6;
+    box-shadow: 5px 4px 5px 0px rgba(217,12,49,0.75);
+    -webkit-box-shadow: 5px 4px 5px 0px rgba(208, 38, 70, 0.75);
+    -moz-box-shadow: 5px 4px 5px 0px rgba(200, 59, 85, 0.75);
+    transition-delay: 0.75s;
+}
+
 @media only screen and (min-width:320px) and (max-width:768px){
 	.container-card{
 		flex-wrap: wrap;
@@ -429,13 +487,177 @@ main{
     min-height: 650px;
     font-family: 'El Messari', sans-serifs;
     font-size: 15px;
-    color:#dfa95c ;
-    background: #000000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color:#b30536;
+    font-weight: 900; 
+    background: linear-gradient(
+        111deg,
+        rgba(35, 125, 113, 0.844) 0%,
+        rgba(61, 79, 240, 0.678) 100%);
+    box-shadow:
+     inset 0px 10px 5px 0px rgba(45, 227, 136, 0.736),
+     inset 65px -46px 5px 0px rgba(186, 198, 242, 0.597);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+   }
+
+#name{
+    width: 100px;
+    height: 52px;
+    border-radius: 15px;
+    font-family: 'El Messari', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #FF6F91;
+}
+
+#correo{
+    border-radius: 15px;
+    width: 100px;
+    height: 52px;
+    border-radius: 15px;
+    font-family: 'El Messari', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #FF9671;
 
 }
 
+#mobile{
+    border-radius: 15px;
+    width: 100px;
+    height: 52px;
+    border-radius: 15px;
+    font-family: 'El Messari', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background:#C4FCEF;
+}
+
+#rubro{
+    border-radius: 15px;
+    width: 100px;
+    height: 52px;
+    border-radius: 15px;
+    font-family: 'El Messari', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #5ab1ce;
+}
+
+#service{
+    border-radius: 15px;
+    width: 100px;
+    height: 52px;
+    border-radius: 15px;
+    font-family: 'El Messari', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background:#845EC2 ;
+
+}
+
+#cv{border-radius: 15px;
+    width: 100px;
+    height: 52px;
+    border-radius: 15px;
+    font-family: 'El Messari', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 2px;
+    text-transform: uppercase; 
+    font-weight: bold;
+    background: #f66043;
+
+}
+#name:hover{
+    background: #cc5333;
+    box-shadow: 0 0 10px  #fd9554, 0 0 40px #56abec, 0 0 80px #56ecc6;
+    transition-delay: 1s;
+    color: #b493d1;
+
+}
+#correo:hover{
+    background: #cc5333;
+    box-shadow: 0 0 10px  #fd9554, 0 0 40px #56abec, 0 0 80px #56ecc6;
+    transition-delay: 1s;
+    color: #b493d1;
+}
+#mobile:hover{
+    background: #cc5333;
+    box-shadow: 0 0 10px  #fd9554, 0 0 40px #56abec, 0 0 80px #56ecc6;
+    transition-delay: 1s;
+    color: #b493d1;
+    
+}
+#rubro:hover{
+    background: #cc5333;
+    box-shadow: 0 0 10px  #fd9554, 0 0 40px #56abec, 0 0 80px #56ecc6;
+    transition-delay: 1s;
+    color: #b493d1;
+}
+#service:hover{
+    background: #cc5333;
+    box-shadow: 0 0 10px  #fd9554, 0 0 40px #56abec, 0 0 80px #56ecc6;
+    transition-delay: 1s;
+    color: #b493d1;
+}
+#cv:hover{
+    background: #cc5333;
+    box-shadow: 0 0 10px  #fd9554, 0 0 40px #56abec, 0 0 80px #56ecc6;
+    transition-delay: 1s;
+    color: #b493d1;
+
+}
+
+
+
+#btn-info{
+    background-color: #00b6d9;
+    width: 200px;
+    height: auto;
+    border-color:#EB9532 !important;
+    transition: box-shadow 0.2s ease-in-out;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Kausha Script', cursive;
+ }
+
+
+ #btn-info:hover{
+    box-shadow: 0 0 40px 40px #930c3d inset;
+
+ }
+
+ #btn-cotizar{
+    border-color:#16A085 ;
+    box-shadow: 0 0 40px 40px #a70355 inset;
+    transition: box-shadow 0.2s ease-in-out;
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    font-family: 'Kausha Script', cursive;
+ }
+
+ #btn-cotizar:hover{
+    box-shadow: 0 0 10px 0 #b30536 inset, 0 0 10px 4px #930c3d;
+ }
+
+   
 
 
 /*Aquí debajo va el FOOTER*/
@@ -446,8 +668,9 @@ footer{
     background-size: cover;
     text-align: justify;
     font-family: 'Karla', sans-serif;
+    font-size: 11px;
     font-weight: bold;
-    background: rgba(65, 5, 22, 0.727);
+    background-image: linear-gradient(to bottom, #030e1d, #181724, #271e2a, #35272f, #403134, #453638, #4a3a3d, #4f3f41, #4f3f46, #4c404a, #48424f, #434452);
     box-shadow: 0 8px 32px 0 rgba(129, 24, 45, 0.37);
     backdrop-filter: blur( 5px );
     -webkit-backdrop-filter: blur( 5px );
@@ -530,6 +753,12 @@ footer{
     height: 1px;
     background-color: #7a7a7a;
 }
+
+#namelogo{
+    border-radius: 15px;
+}
+
+.letters{ border-radius: 15px;}
 
 
 /* Media Queries */

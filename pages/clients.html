@@ -6,11 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Sitio Web ofrece servicios de asesoría, creación de productos web y propuestas de marketing digital, ecommerce y marca personal para emprendedores, profesionales y pymes.">
     <meta name="keywords" content="Landing Pages, Portfolios, Ecommerce, Marketing Digital, Analisis de Métricas, Marca Persona, Sitios Web">
-    <title>JOBSTERS IT | CLIENTS</title>
-
-    
+    <title>JOBSTERS IT | CLIENTS</title>    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="../css/estilos.css">
 
 </head>
@@ -18,7 +16,7 @@
   
   <header>
   
-  <nav class="navbar navbar-expand-md bg-dark navbar-dark" id="navbar">
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark animate__animated animate__backInRight" id="navbar">
     <!-- Brand -->
     <a class="navbar-brand" href="#">JOBSTERS IT
       <img src="../pictures/cohete.gif" alt="logo evolución" class="logo">
@@ -55,7 +53,7 @@
 
   <!--CAROUSEL-->
 
-  <div id="demo" class="carousel slide" data-ride="carousel">
+  <div id="demo" class="carousel slide  animate__animated animate__slideInDown" data-ride="carousel">
 
     <!-- Indicators -->
     <ul class="carousel-indicators">
@@ -104,9 +102,9 @@
 
   <!--Jumbotron Inicio-->
 
-  <div class="jumbotron" id="jumbotron3">
-    <h2>A NUESTROS CLIENTES</h2>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore, culpa voluptates? Recusandae nulla deleniti accusantium mollitia officiis consequatur, cupiditate hic corporis ullam optio, magnam laboriosam?
+  <div class="jumbotron animate__animated animate__pulse" id="jumbotron3">
+    <h2 class="jumbo">A NUESTROS CLIENTES</h2>
+    <p class="about">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore, culpa voluptates? Recusandae nulla deleniti accusantium mollitia officiis consequatur, cupiditate hic corporis ullam optio, magnam laboriosam?
     <br>
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, nulla est modi recusandae sequi quod ut et alias assumenda accusamus ad facilis molestiae natus laborum.
     <br>   
@@ -115,11 +113,13 @@
     
    
 
-    <a href="#" class="btn btn-info" role="button">HOME</a>
+    <a href="../index.html" class="btn btn-info" role="button">HOME</a>
 
-    <a href="#" class="btn btn-info" role="button">PRODUCTOS</a>
+    <a href="../pages/products.html" class="btn btn-info" role="button">PRODUCTOS</a>
+
+    <a href="../pages/about.html" class="btn btn-info" role="button">PRODUCTOS</a>
    
-    <a href="#" class="btn btn-info" role="button">CONTACTO</a>
+    <a href="../pages/form.html" class="btn btn-info" role="button">CONTACTO</a>
     
   </div>
 
@@ -130,38 +130,38 @@
   <hr id="line2">
 
   <div class="title-cards">
-		<h2>NUESTROS CLIENTES</h2>
+		<h2 class="home">NUESTROS CLIENTES</h2>
 	</div>
 <div class="container-card">
 	
 <div class="card">
-	<figure>
-		<img src="../pictures/joe.jpg" alt="">
+	<figure class="animate__animated animate__flip">
+		<img src="../pictures/joe.jpg" alt="cliente asesor">
 	</figure>
 	<div class="contenido-card">
-		<h3>Asesor</h3>
+		<h3 class="about" id="client">Asesor  <i class="fas fa-user-tie"></i>  </h3>
 		<p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, debitis accusamus voluptatum magni illo rerum? </p>
-    <a href="#" class="btn btn-card" role="button">CONTACTO</a>
+    <a href="#" class="btn btn-card" role="button" id="contacto">CONTACTO</a>
 	</div>
 </div>
 <div class="card">
-	<figure>
-		<img src="../pictures/elena.jpg" alt="">
+	<figure class="animate__animated animate__flip">
+		<img src="../pictures/elena.jpg" alt="cliente profesional independiente">
 	</figure>
 	<div class="contenido-card">
-		<h3>Abogada</h3>
+		<h3 class="about" id="client">Abogada  <i class="fas fa-balance-scale"></i></h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias qui molestiae ab odio officia officiis.</p>
-    <a href="#" class="btn btn-card" role="button">CONTACTO</a>
+    <a href="#" class="btn btn-card" role="button" id="contacto">CONTACTO</a>
 	</div>
 </div>
 <div class="card">
-	<figure>
-		<img src="../pictures/jordan.jpg" alt="">
+	<figure class="animate__animated animate__flip">
+		<img src="../pictures/jordan.jpg" alt="cliente fotografo">
 	</figure>
 	<div class="contenido-card">
-		<h3>Fotografo</h3>
+		<h3 class="about" id="client">Fotografo <i class="fas fa-camera"></i></h3>
 		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita tenetur, nam sapiente quia nihil aliquid?</p>
-    <a href="#" class="btn btn-card" role="button">CONTACTO</a>
+    <a href="../pages/form.html" class="btn btn-card" role="button" id="contacto">CONTACTO</a>
 	</div>
 </div>
 </div>
@@ -171,33 +171,33 @@
 <div class="container-card">
 	
   <div class="card">
-    <figure>
-      <img src="../pictures/emprendedor.jpg" alt="">
+    <figure class="animate__animated animate__flip">
+      <img src="../pictures/emprendedor.jpg" alt="cliente emprendedor">
     </figure>
     <div class="contenido-card">
-      <h3>Negocio</h3>
+      <h3 class="about" id="client">Negocio <i class="fas fa-store-alt"></i></h3>
       <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, debitis accusamus voluptatum magni illo rerum? </p>
-      <a href="#" class="btn btn-card" role="button">CONTACTO</a>
+      <a href="../pages/form.html" class="btn btn-card" role="button" id="contacto">CONTACTO</a>
     </div>
   </div>
   <div class="card">
-    <figure>
-      <img src="../pictures/teacher.jpg" alt="">
+    <figure class="animate__animated animate__flip">
+      <img src="../pictures/teacher.jpg" alt="cliente docente de primaria online" id="contacto">
     </figure>
     <div class="contenido-card">
-      <h3>Docente</h3>
+      <h3 class="about" id="client">Docente <i class="fas fa-chalkboard-teacher"></i></h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias qui molestiae ab odio officia officiis.</p>
-      <a href="#" class="btn btn-card" role="button">CONTACTO</a>
+      <a href="../pages/form.html" class="btn btn-card" role="button" id="contacto">CONTACTO</a>
     </div>
   </div>
   <div class="card">
-    <figure>
-      <img src="../pictures/cafee.jpg" alt="">
+    <figure class="animate__animated animate__flip">
+      <img src="../pictures/cafee.jpg" alt="cliente cafe negocio gastronómico">
     </figure>
     <div class="contenido-card">
-      <h3>Cafe St.</h3>
+      <h3 class="about" id="client">Cafe St. <i class="fas fa-coffee"></i> </h3>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita tenetur, nam sapiente quia nihil aliquid?</p>
-      <a href="#" class="btn btn-card" role="button">CONTACTO</a>
+      <a href="../pages/form.html" class="btn btn-card" role="button" id="contacto">CONTACTO</a>
     </div>
   </div>
   </div>
@@ -207,33 +207,33 @@
   <div class="container-card">
 	
     <div class="card">
-      <figure>
-        <img src="../pictures/resto.jpg" alt="">
+      <figure class="animate__animated animate__flip">
+        <img src="../pictures/resto.jpg" alt="cliente resto de lujo">
       </figure>
       <div class="contenido-card">
-        <h3>Robin Food</h3>
+        <h3 class="about" id="client">Robin Food  <i class="fas fa-utensils"></i> </h3>
         <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, debitis accusamus voluptatum magni illo rerum? </p>
-        <a href="#" class="btn btn-card" role="button">CONTACTO</a>
+        <a href="../pages/form.html" class="btn btn-card" role="button" id="contacto">CONTACTO</a>
       </div>
     </div>
     <div class="card">
-      <figure>
-        <img src="../pictures/singer.jpg" alt="">
+      <figure class="animate__animated animate__flip">
+        <img src="../pictures/singer.jpg" alt="cliente cantante de jazz">
       </figure>
       <div class="contenido-card">
-        <h3>Cantante</h3>
+        <h3 class="about" id="client">Cantante <i class="fas fa-guitar"></i></h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias qui molestiae ab odio officia officiis.</p>
-        <a href="#" class="btn btn-card" role="button">CONTACTO</a>
+        <a href="../pages/form.html" class="btn btn-card" role="button" id="contacto">CONTACTO</a>
       </div>
     </div>
     <div class="card">
-      <figure>
-        <img src="../pictures/pub.jpg" alt="">
+      <figure class="animate__animated animate__flip">
+        <img src="../pictures/pub.jpg" alt="cliente bar estilo aleman">
       </figure>
       <div class="contenido-card">
-        <h3>Berliner</h3>
+        <h3 class="about" id="client">Berliner <i class="fas fa-cocktail"></i></h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita tenetur, nam sapiente quia nihil aliquid?</p>
-        <a href="#" class="btn btn-card" role="button">CONTACTO</a>
+        <a href="../pages/form.html" class="btn btn-card" role="button" id="contacto">CONTACTO</a>
       </div>
     </div>
     </div>
@@ -243,33 +243,33 @@
     <div class="container-card">
 	
       <div class="card">
-        <figure>
-          <img src="../pictures/bizz.jpg" alt="">
+        <figure class="animate__animated animate__flip">
+          <img src="../pictures/bizz.jpg" alt="empresa consultora de RRHH">
         </figure>
         <div class="contenido-card">
-          <h3>Empresa</h3>
+          <h3 class="about" id="client">Empresa <i class="fas fa-building"></i></h3>
           <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, debitis accusamus voluptatum magni illo rerum? </p>
-          <a href="#" class="btn btn-card" role="button">CONTACTO</a>
+          <a href="../pages/form.html" class="btn btn-card" role="button" id="contacto">CONTACTO</a>
         </div>
       </div>
       <div class="card">
-        <figure>
-          <img src="../pictures/pintora.jpg" alt="">
+        <figure class="animate__animated animate__flip">
+          <img src="../pictures/pintora.jpg" alt="cliente artista especialista en pinturas" id="contacto">
         </figure>
         <div class="contenido-card">
-          <h3>Pintora</h3>
+          <h3 class="about" id="client">Pintora <i class="fas fa-paint-brush"></i></h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias qui molestiae ab odio officia officiis.</p>
-          <a href="#" class="btn btn-card" role="button">CONTACTO</a>
+          <a href="../pages/form.html" class="btn btn-card" role="button" id="contacto">CONTACTO</a>
         </div>
       </div>
       <div class="card">
-        <figure>
-          <img src="../pictures/teatro.jpg" alt="">
+        <figure class="animate__animated animate__flip">
+          <img src="../pictures/teatro.jpg" alt="teatro barrial">
         </figure>
         <div class="contenido-card">
-          <h3>Teatro</h3>
+          <h3 class="about" id="client">Teatro  <i class="fas fa-theater-masks"></i> </h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita tenetur, nam sapiente quia nihil aliquid?</p>
-          <a href="#" class="btn btn-card" role="button">CONTACTO</a>
+          <a href="../pages/form.html" class="btn btn-card" role="button" id="contacto">CONTACTO</a>
         </div>
       </div>
       </div>
@@ -315,17 +315,17 @@
   <div class="container__footer">
       <div class="box__footer">
           <div class="logo">
-              <h4 class="name">JBs| it</h4>
+              <h2 class="name" id="namelogo">JBs| it</h2>
               <img src="../pictures/cohete.gif" alt="cohete-start">
           </div>
           <br><br>
           <hr>
           <div class="terms">
-              <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas impedit cum cumque velit libero officiis quam doloremque reprehenderit quae corporis! Delectus architecto officia praesentium atque laudantium, nam deleniti sapiente deserunt.</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas impedit cum cumque velit libero officiis quam doloremque reprehenderit quae corporis! Delectus architecto officia praesentium atque laudantium, nam deleniti sapiente deserunt.</p>
           </div>
       </div>
       <div class="box__footer">
-          <h4>Soluciones</h4>
+          <h2 class="letters">Soluciones</h2>
           <a href="#">Paginas Web</a>
           <a href="#">Marketing Digital</a>
           <a href="#">E-commerce</a>
@@ -333,7 +333,7 @@
       </div>
 
       <div class="box__footer">
-          <h4>JOBSTERS</h4>
+          <h2 class="letters">JOBSTERS</h2>
           <a href="#HOME">HOME</a>
           <a href="#">ABOUT ME</a>
           <a href="#">PRODUCTS</a>
@@ -342,7 +342,7 @@
       </div>
 
       <div class="box__footer">
-          <h4>RRSS</h4>
+          <h2 class="letters">RRSS</h2>
           <a href="#"><i class="fab fa-facebook-square"></i> Facebook</a>
           <a href="#"><i class="fab fa-medium"></i> Medium</a>
           <a href="#"><i class="fab fa-linkedin"></i> Linkedin</a>
