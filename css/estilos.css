@@ -13,12 +13,12 @@
 body{
     background-image: linear-gradient(to right top, #930c3d, #98235e, #953a7e, #89509b, #7765b2, #6176c3, #4487d0, #1696d7, #00a7db, #00b6d9, #00c5d2, #32d2c8);
     font-weight: 200;
-    font-family: 'El Messeri', sans-serif;
+    font-family: 'El Messiri', sans-serif;
     
 }
 
 h1{
-    font-family: 'El Messeri', sans-serif;
+    font-family: 'El Messiri', sans-serif;
     color: #450631;
     font-size: 20px;
     font-weight: bold;
@@ -173,7 +173,7 @@ main{
     background: -webkit-linear-gradient(to right, #ff4b1f, #1fddff); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #ff4b1f, #1fddff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border: 5px outset #cf1791;
-    font-family: 'El Messari', sans-serif;
+    font-family: 'El Messiri', sans-serif;
     color: #05354b;
     text-align: center;
     font-weight: bold;
@@ -542,7 +542,7 @@ main{
     width: 100px;
     height: 52px;
     border-radius: 15px;
-    font-family: 'El Messari', sans-serif;
+    font-family: 'El Messiri', sans-serif;
     font-size: 15px;
     text-align: center;
     padding: 2px;
@@ -556,7 +556,7 @@ main{
     width: 100px;
     height: 52px;
     border-radius: 15px;
-    font-family: 'El Messari', sans-serif;
+    font-family: 'El Messiri', sans-serif;
     font-size: 15px;
     text-align: center;
     padding: 2px;
@@ -584,7 +584,7 @@ main{
     width: 100px;
     height: 52px;
     border-radius: 15px;
-    font-family: 'El Messari', sans-serif;
+    font-family: 'El Messiri', sans-serif;
     font-size: 15px;
     text-align: center;
     padding: 2px;
