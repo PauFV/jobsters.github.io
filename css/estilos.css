@@ -118,13 +118,13 @@ h5{
     
 }
 
-.linkActive:hover{
+#linkActive:hover{
     background: #a945c7 !important;
     box-shadow: 0 0 10px  #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
     transition-delay: 1s;
 
 }
-.linkActive:active{
+#linkActive:active{
     background: #a945c7 !important;
     box-shadow: 0 0 10px  #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
     transition-delay: 1s;
@@ -206,8 +206,6 @@ main{
 
 }
 
-
-
 .servicios{
     height: auto;
     width: 100%;
@@ -249,8 +247,6 @@ main{
     
 }
 
-
-
 #jumbotron1 p{
     color: #f9a675;
     background: #141E30;  /* fallback for old browsers */
@@ -284,13 +280,11 @@ main{
 
 }
 
-
 .raw{
     height:auto;
     background: #f2709c;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #ff9472, #f2709c);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #ff9472, #f2709c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
 
 .jumbo{
@@ -669,9 +663,6 @@ main{
     box-shadow: 0 0 10px 0 #b30536 inset, 0 0 10px 4px #930c3d;
  }
 
-   
-
-
 /*Aquí debajo va el FOOTER*/
 
 footer{
@@ -690,8 +681,6 @@ footer{
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     
 }
-
-
 
 .terms{
     text-shadow: none;
