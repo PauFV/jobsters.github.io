@@ -2,28 +2,30 @@
 Sitio Web de Servicios y Productos
 
 ## 5 SECCIONES
--HOME
--ABOUT
--PRODUCTS
--CLIENTS
--CONTACT
+HOME
+ABOUT
+PRODUCTS
+CLIENTS
+CONTACT
 
 ##SECCION HOME
+
 ###HEAD
-- Head - Descripcion - Keywords
-- link CSS
-- link animate.css
-- Title Home
+Head - Descripcion - Keywords
+link CSS
+link animate.css
+Title Home
 
 ##BODY
+
 ###HEADER
--Navbar 
--Logo
-- Slideshow: Galeria de Imagenes
+Navbar 
+Logo
+Slideshow: Galeria de Imagenes
 
 ###MAIN
--Jumbotron
--Seccion 1
+Jumbotron
+Seccion 1
 
 ##FOOTER
 
