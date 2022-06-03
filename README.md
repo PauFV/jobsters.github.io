@@ -112,6 +112,7 @@ Herramientas
 -Libreria Animate CSS
 -Imagenes de Pexels, Unplash
 -Libreria Fontawesome
+-Chatbot by Tidio 
 
 https://whimsical.com/jobsters-TM6wrk76VSiT7L9iuAAWMn@2Ux7TurymNBUobZu4Ycj
 
