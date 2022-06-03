@@ -8,104 +8,106 @@ PRODUCTS
 CLIENTS
 CONTACT
 
-##SECCION HOME
+SECCION HOME
 
-###HEAD
+HEAD
 Head - Descripcion - Keywords
 link CSS
 link animate.css
 Title Home
 
-##BODY
+BODY
 
-###HEADER
+HEADER
 Navbar 
 Logo
 Slideshow: Galeria de Imagenes
 
-###MAIN
+MAIN
 Jumbotron
 Seccion 1
 
-##FOOTER
+FOOTER
 
-#SECCION ABOUT
-##HEAD
+SECCION ABOUT
+HEAD
 -Descripcion
 -Keywords
 -Link CSS 
 -Link Animate.css
 
-##BODY
-###HEADER
+BODY
+HEADER
 -Navbar
 -SlideShow
 
-###MAIN
+MAIN
 -Jumbotron
 -Seccion 1
 
-##FOOTER
+FOOTER
 
-#SECCION PRODUCTS
-##HEAD
+SECCION PRODUCTS
+HEAD
 -Descripcion
 -Keywords
 -Link CSS 
 -Link Animate.css
 
-##BODY
-###HEADER
+BODY
+HEADER
 -Navbar
 -logo
 -SlideShow
 
-###MAIN
+MAIN
 -Jumbotron
 -Seccion 1 - Productos
 -seccion 2 - Servicios
 
-##FOOTER
+FOOTER
 
-#SECCION CLIENTS
-##HEAD
+SECCION CLIENTS
+HEAD
 -Descripcion
 -Keywords
 -Link CSS 
 -Link Animate.css
 
-##BODY
-###HEADER
+BODY
+HEADER
 -Navbar
 -logo
 -SlideShow
 
-###MAIN
+MAIN
 -Jumbotron
 -SECCION: Cards - Clientes
 
-##FOOTER
+FOOTER
 
-#SECCION PRODUCTS
-##HEAD
+SECCION PRODUCTS
+HEAD
 -Descripcion
 -Keywords
 -Link CSS 
 -Link Animate.css
 
-##BODY
-###HEADER
+BODY
+HEADER
 -Navbar
 -logo
 -SlideShow
 
-###MAIN
+MAIN
 -Jumbotron
 -FORMULARIO 
 
-##FOOTER
+FOOTER
 
-###Herramientas
+TODOS LOS DERECHOS RESERVADOS 2022 | PAU FV
+
+Herramientas
 -Boostrap
 -Libreria Animate CSS
 -Imagenes de Pexels, Unplash
