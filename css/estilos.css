@@ -154,8 +154,6 @@ h5{
     
 }
 
-.carousel-item{
-	height:470px;}
 	
 .carousel-item img{
     width: 100%;
@@ -769,8 +767,7 @@ footer{
 
 @media(min-width: 500px) {
 	
-    .carousel-item{
-	height:470px;}
+ 
 
     .logo{text-align: center;
         font-size: 15px;
