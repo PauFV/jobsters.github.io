@@ -768,6 +768,9 @@ footer{
 
 
 @media(min-width: 500px) {
+	
+    .carousel-item{
+	height:470px;}
 
     .logo{text-align: center;
         font-size: 15px;
