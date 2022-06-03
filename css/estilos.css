@@ -112,7 +112,7 @@ h5{
 }
 
 .navbar-dark{
-	color: #ef233c;}
+	color: #ef233c !important;}
 
 #navbar a{
     color: #20aec7;
